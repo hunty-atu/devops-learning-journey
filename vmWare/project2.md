@@ -1,30 +1,32 @@
-Build and Identify the Files of the VM.
+# Project 2: Enterprise VMware vSphere Network Configuration Reviewed
 
-1. **Investigate the Various Files**:
-   - **VMDK**: Virtual Machine Disk file that stores the contents of the virtual machine's hard drive.
-   - **VMX**: Virtual Machine Configuration file containing settings such as the virtual hardware configuration, network settings, and other parameters.
-   - **VMXD**: Virtual Machine Disk Descriptor file containing metadata about the virtual disk.
-   - **VMXF**: Virtual Machine Team Configuration file used when virtual machines are part of a team.
-   - **Log Files**: Record the activity of the virtual machine, useful for troubleshooting.
-   - **Snapshot Files (VMSN and VMSD)**: VMSN stores the state of the virtual machine at the time the snapshot was taken, including the memory state. VMSD contains metadata about the snapshots.
+## Questions
 
-2. **Example**:
-   - When viewing the `VsP.vmx` file contents, observe the `memsize = “1024”` line. This is the VM’s current memory size.
+# NAT Setup of my organisation vSphere
 
-## Identify the VM Settings and Where They Are Stored
+## VLAN Port Groups
+- In the Configure tab, expand the Settings section.
+- Click on Port Groups.
+- There are 30 VLAN port IDs.
 
-- **.dvsData**: Related to distributed virtual switches (DVS) and contains network configuration data.
-- **.sdd.sf**: Part of the snapshot delta disk structure, used to manage snapshots.
-- **.hlog**: Host log file containing logs related to the VM's operations on the host.
-- **.nvram**: Stores the BIOS or EFI configuration of the VM.
-- **.vmsd**: Contains metadata and information about the VM's snapshots.
-- **.vmtx**: Template configuration file, indicating that the VM is a template rather than a regular VM.
-- **.vmdk**: Virtual disk file containing the actual data of the VM. For example, `Windows 11 Template_6.vmdk` is the virtual disk for your Windows 11 template.
+## VLAN Types
+- Example: Go to VMware HCIA Distributed Switch > Citrix_Hosts > ACTIONS > EDIT SETTINGS > VLAN Types (standard VLAN).
+- Options:
+  - **VLAN**: Standard VLAN configuration.
+  - **VLAN Trunking**: Allows multiple VLANs on a single port.
+  - **Private VLAN**: Provides isolation between ports within the same VLAN.
 
-## Issue: Download Operation Blocked
+## Review VLAN Configurations
+- Check the VLAN settings in your vSphere Client to understand how each VLAN is configured.
 
-- **Permissions**: Ensure you have the necessary permissions to download files from the datastore.
-- **File Locks**: If the VM is powered on, certain files like `.nvram` might be locked. Try powering off the VM before downloading.
-- **Datastore Browser**: Use the vSphere Client directly connected to the ESXi host where the VM is running.
+### Determine Network Type
+- **NAT (Network Address Translation)**: Look for configurations where internal IP addresses are translated to external ones. This is typically set up in the network settings of your virtual machines or the router/firewall settings.
+  - VMware HCIA Distributed Switch Netflow Collector IP address --, and Port Mirroring is no items found.
+- **Bridged Networking**: Check if the VLAN is connected directly to the physical network interfaces. This allows VMs to communicate with external networks as if they were on the same physical network.
+  - Network topology: Check the Uplinks to see how the physical network adapters are connected to the Distributed Switch.
+- **Host-Only Networking**: Verify if the VLAN is isolated from external networks and only allows communication between VMs on the same host.
+- **Internal Networking**: Ensure the VLAN is set up for communication between VMs on the same host without any external network access.
 
-
+## Use Network Management Tools
+- Tools like NetFlow, Port Mirroring, and Network Health Check can help you analyze and verify the network traffic and configurations.
+- Enable Network Health Check on the Distributed Switch to verify VLAN configurations and ensure there are no misconfigurations.

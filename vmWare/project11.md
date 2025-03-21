@@ -1,4 +1,4 @@
-# Project 1: VMware vSphere Configuration Notes
+# Project 2: VMware vSphere Configuration Notes
 
 ## Disk
 
