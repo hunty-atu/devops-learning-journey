@@ -8,6 +8,7 @@ This folder contains my notes and projects related to VMware.
 - [Project 2: vSphere NAT and VLAN Configuration](project2.md)
 - [Project 3: vSphere Client 7.0.3 VM Management](project3.md)
 - [Project 4: Assigning a User to a PC in Citrix Studio](project4.md)
+- [Project 5: Building and configuring Server/VM](project5.md)
 
 ## Learnings
 https://portal.netdevgroup.com/
