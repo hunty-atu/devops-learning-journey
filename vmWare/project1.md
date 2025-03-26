@@ -1,4 +1,4 @@
-# Project 1: Create VM using labs
+# Project 1: Virtual Machine Lab Mastery
 
 ## Overview
 This project focuses on creating a VM in a lab environment. Lab was completed on https://portal.netdevgroup.com/

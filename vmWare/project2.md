@@ -1,4 +1,4 @@
-# Project 2: Enterprise VMware vSphere Network Configuration Reviewed
+# Project 2: vSphere NAT and VLAN Configuration
 
 ## Questions
 
