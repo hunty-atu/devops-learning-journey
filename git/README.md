@@ -5,7 +5,7 @@ This folder contains my notes and projects related to Git & GITHUB.
 
 ## Projects
 - [Project 1: GIT Basic Commands](project1.md)
-- [Project 2: GIT Basic Commands](project2.md)
+- [Project 2: Push and Pull projects from GitHub](project2.md)
 
 
 ## Learnings
