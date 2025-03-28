@@ -1,4 +1,6 @@
-# Push and Pull projects from GitHub
+# Notes for My PUSH & PULL
+
+## First Program
 
 A Java file is created using Notepad (use any editor).
 
