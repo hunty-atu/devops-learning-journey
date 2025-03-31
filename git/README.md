@@ -9,13 +9,8 @@ This folder contains my notes and projects related to Git & GITHUB.
 
 
 ## Learnings
-Cloning is simply the process of downloading a GitHub project from an online repository to your local machine using Git.
+Git clone is used for the initial setup to copy a repository, while git pull is used to update an existing local repository with changes from the remote repository.
 
-Once it’s on your local machine, you can make edits to your local copy and PUSH your code or PULL changes made to the online repository into your local copy of the project using Git.
-Branch
-What is Git Branching?
-
-Git branching allows developers to diverge from the production version of code to fix a bug or add a feature.
 Developers create branches to work with a copy of the code without changing the current version.
 $ git checkout -b <branch-name>
 Example: $ git checkout -b My_Spring_uni_Branch
