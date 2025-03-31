@@ -1,46 +1,72 @@
-# Notes for My PUSH & PULL
+## Project 2: Push and Pull projects from GitHub
 
-## First Program
+## Push local changes to GitHub
 
-A Java file is created using Notepad (use any editor).
+- **Add all modified or new files to the repository**
+    ```bash
+    git add .
+    ```
 
-```bash
-git add .
-is used to add all modified or new files to the repository.
+- **Note the change whilst committing to the repository**
+    ```bash
+    git commit -m "Added HelloLYIT.java"
+    ```
 
-git commit -m "Added HelloLYIT.java"
-is used to note the change whilst committing to the repository.
+- **Push the changes from the local master to the remote origin**
+    ```bash
+    git push -u origin master
+    ```
 
-git push -u origin master
-pushes the changes from the local master to the remote origin.
+- **Ensure that all commits are made**
+    ```bash
+    git status
+    ```
 
-git status
-is run to ensure that all commits are made.
+## Problems
 
-public class HelloATU {
-    public static void main(String[] args) {
-        // Prints "Hello, ATU from Maria" as output
-        System.out.println("Hello, ATU from Maria");
-    }
-}
-In this way, files can be added to the repository and the changes are reflected in the remote repository. Open the browser and refresh the page. The new Java file is available on the remote repository.
+- **If there is a problem with origin, it can be removed**
+    ```bash
+    git remote rm origin
+    ```
 
-Now that pushing data to the repository can be seen, it is clear why GitHub can be very useful to a development team.
+- **If GitHub shows zero contributors, it is because you pushed using a username that is not your GitHub username. To fix:**
+    ```bash
+    git config --global user.name "my-github-username"
+    git config --global user.email "my-github-email"
+    ```
 
-Problems
-If there is a problem with origin, it can be removed using:
+# Pulling from an Existing Project
 
-git remote rm origin
-If GitHub shows zero contributors, it is because you pushed using a username that is not your GitHub username. To fix:
+## Steps to follow:
 
-git config --global user.name "my-github-username"
-git config --global user.email "my-github-email"
-Pulling from an Existing Project
-Create a folder assignmentFolder (NOT IN THE DEMO FOLDER!!) and change directory into that folder.
-Initialize the folder as a Git repository.
-Use git remote add to link the local repository to the remote repository on GitHub.
-Pull a copy of files and folders from the remote directory onto the local directory.
-Congratulations, you have successfully ‘pulled’ down a project from GitHub!!
+1. **Create a folder assignmentFolder**
+    ```bash
+    cd ..
+    mkdir testFolder
+    ```
 
-Push Local Changes to the Remote Repository
-In this example, changes are made to the local repository and then pushed up to the remote repository.
+2. **Change directory into that folder**
+    ```bash
+    cd testFolder/
+    ```
+
+3. **Initialize the folder for git Repo**
+    ```bash
+    git init
+    ```
+
+4. **Link the local Repo to GitHub**
+    ```bash
+    git remote add origin https://github.com/AWS-Devops-Projects
+    ```
+
+5. **Pull a copy of the existing work on GitHub to the local Repo**
+    ```bash
+    git pull origin master
+    ```
+
+## More Sample Projects
+
+- GitHub DevOps Projects Topic
+- TechiesCamp DevOps Projects
+- AWS DevOps Projects
