@@ -1,11 +1,4 @@
-# 
-
-
-## Local Version Control
-
-**Created on:** 28/03/2025
-**Created with:** Git 2.46.0  
-**Tested On:** Windows 11  
+# Project 1: GIT Basic Commands
 
 ### Steps
 
@@ -103,3 +96,7 @@
     ```
 
 These examples work with Git. Remember that Git commands shown here provide version control on your local copy only.
+## Local Version Control
+**Created on:** 28/03/2025
+**Created with:** Git 2.46.0  
+**Tested On:** Windows 11  
