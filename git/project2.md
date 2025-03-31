@@ -21,7 +21,7 @@
     git status
     ```
 
-# Pulling from an Existing Project
+## Pulling from an Existing Project
 
 ## Steps to follow:
 
