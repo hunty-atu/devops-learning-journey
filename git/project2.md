@@ -1,4 +1,6 @@
-## Project 2: Push and Pull local changes to GitHub
+# Project 2: Push and Pull local changes to GitHub
+
+### Steps
 
 
 1. **Add all modified or new files to the repository**
