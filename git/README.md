@@ -18,4 +18,10 @@ Example: $ git checkout -b My_Spring_uni_Branch
 Git cheat sheet
 https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet
 
+•	Learn Git In 15 Minutes
+    https://www.youtube.com/watch?v=USjZcfj8yxE
+•	Git For Dummies (20 mins) https://www.youtube.com/watch?v=mJ-qvsxPHpY
+•	Git and GitHub for Beginners - Crash Course (60 mins) https://www.youtube.com/watch?v=RGOj5yH7evk
+
+
 

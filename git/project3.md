@@ -1,4 +1,4 @@
-# Project 3: Create Clone & Create Branch
+# Project 3: Create Clone & Create Branching
 
 
 **Cloning the Repository**
