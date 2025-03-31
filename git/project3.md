@@ -1,5 +1,6 @@
 # Project 3: Create Clone & Create Branching
 
+### Steps
 
 **Cloning the Repository**
 Open Git Bash and create a directory named uni:

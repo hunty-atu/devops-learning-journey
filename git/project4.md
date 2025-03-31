@@ -1,4 +1,6 @@
-#Conflicts
+# Project 4: Conflicts
+
+### Steps
 
 ##Version control helps teams solve any code problems or conflicts.
 
