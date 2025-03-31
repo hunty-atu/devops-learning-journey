@@ -16,3 +16,14 @@ This folder contains my notes and projects related to Terraform.
 organize your content into folders and document your learnings and projects in markdown files within your GitHub repository.
 - A provisioner is used to execute external scripts after the provisioning of an infrastructure element by Terraform. These scripts are commonly used for configuration management, bootstrapping, and/or clean up. For the purposes of this course, we will use it as a way to run a separate configuration management tool to configure the elements once they are created. Terraform supports three different generic provisioners. These include a file provisioner to copy files and directories, a local‑exec provisioner to run a local script, and a remote‑exec provisions that runs a script on the created remote element.
 
+
+# VMware
+
+## Overview
+This folder contains my notes and projects related to VMware.
+
+## Projects
+- [Project 1: Cisco DevOps 300‑910: Automating Infrastructure](project1.md)
+- [Project 2: How Terraform Works: A Visual Intro](project2.md)
+- [Project 3: Docker remote host - variables & outputs](project3.md)
+

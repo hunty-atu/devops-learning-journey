@@ -1,0 +1,10 @@
+{
+	"folders": [
+		{
+			"path": "../../maven-unit-tests"
+		}
+	],
+	"settings": {
+		"java.configuration.updateBuildConfiguration": "automatic"
+	}
+}
