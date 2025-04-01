@@ -17,20 +17,16 @@ Developers create branches to work with a copy of the code without changing the 
 $ git checkout -b <branch-name>
 Example: $ git checkout -b My_Spring_uni_Branch
 
-Git cheat sheet
+
+# Git and Version Control Resources
+
+## Learn Git In 15 Minutes
+- Learn Git In 15 Minutes
+- [Git For Dummies (20 mins)](https://www.youtube.com/watch?v=mJ-qvsxurse (60 mins)
+
+## Intro to Branching
+- Branching Can Change Your Life
+- [How to Work with Branches in Git](https://www.freecodecamp.org/news/how-to-work-with-branches-in-git/testinghelpttps://www.trustradiusned](https://www.youtube.com/watch?v=x
+
+## Git cheat sheet
 https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet
-
-**Learn Git In 15 Minutes;**
- •   https://www.youtube.com/watch?v=USjZcfj8yxE
- •	 Git For Dummies (20 mins) https://www.youtube.com/watch?v=mJ-qvsxPHpY
- •	 Git and GitHub for Beginners - Crash Course (60 mins) https://www.youtube.com/watch?v=RGOj5yH7evk
-**Intro to branching;**
- •   https://www.git-tower.com/learn/git/ebook/en/command-line/branching-merging/branching-can-change-your-life
- •   https://www.freecodecamp.org/news/how-to-work-with-branches-in-git/
-**Version Control;**
- •   https://www.softwaretestinghelp.com/version-control-software/
- •   https://www.trustradius.com/version-control
- •   https://www.youtube.com/watch?v=xQujH0ElTUg
-
-
-
