@@ -95,6 +95,14 @@
     git push -u origin master
     ```
 
+Open Editor: Running git commit will open the default editor.
+Add Comments: Add a line of text under the comments section.
+Save Changes:
+Press Esc to ensure you're in normal mode.
+Type :wq and press Enter.
+This command writes (saves) the file and then quits Vim.
+
+
 These examples work with Git. Remember that Git commands shown here provide version control on your local copy only.
 ## Local Version Control
 **Created on:** 28/03/2025
